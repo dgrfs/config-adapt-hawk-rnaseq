@@ -1,0 +1,3 @@
+sample,fastq_1,fastq_2,strandedness
+SAMPLE01,source_data/SAMPLE01_S10_R1_001.fastq.gz,source_data/SAMPLE01_S10_R2_001.fastq.gz,auto
+SAMPLE02,source_data/SAMPLE02_S11_R1_001.fastq.gz,source_data/SAMPLE02_S11_R2_001.fastq.gz,auto
