@@ -30,7 +30,7 @@ module load singularity/3.8.5
 mamba activate nf-core
 ```
 
-run nextflow with adapted config, static NF-Core, static nf-core/RNASeq
+run nextflow with adapted config, static NF-Core tools, static nf-core/RNASeq
 ```
 nextflow run ~/scratch/nf-core-rnaseq_3.12.0/3_12_0/ -profile singularity -params-file params.yaml -c adapted.scw.config
 ```
