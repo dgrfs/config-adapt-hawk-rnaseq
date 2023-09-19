@@ -1,5 +1,16 @@
 # RNASeq NF-Core pipeline setup
 
+## Getting started
+```
+git clone https://github.com/dgrfs/config-adapt-hawk-rnaseq
+
+```
+
+Contains simulated reads using this workflow: https://bioconductor.org/packages/release/bioc/vignettes/polyester/inst/doc/polyester.html
+
+Simulated reads can be used for reproducibility and debugging
+
+
 Config (and required resources) will depend on the data, the workflow.. so each config will likely need to be adapted to the specific project. This worked for me, for 12 rnaseq *fastq files. More resources may need to be given for larger-scale projects.
 
 Base config file for SCW can be found:
