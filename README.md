@@ -10,6 +10,9 @@ Contains simulated reads using this workflow: https://bioconductor.org/packages/
 
 Simulated reads can be used for reproducibility and debugging
 
+more simulated / example data for benchmarking can be found here:
+https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2261-8#Sec9
+
 
 Config (and required resources) will depend on the data, the workflow.. so each config will likely need to be adapted to the specific project. This worked for me, for 12 rnaseq *fastq files. More resources may need to be given for larger-scale projects.
 
