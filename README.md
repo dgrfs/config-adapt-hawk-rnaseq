@@ -1,5 +1,8 @@
 # RNASeq NF-Core pipeline setup
 
+reference data:
+https://github.com/hartwigmedical/testdata
+
 ## Getting started
 ```
 git clone https://github.com/dgrfs/config-adapt-hawk-rnaseq
