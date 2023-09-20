@@ -17,7 +17,7 @@ git clone https://github.com/dgrfs/config-adapt-hawk-rnaseq
 ```
 
 ## Download genome reference files
-Get reference files (OPTIONAL, but improves reporducibility and saves time)
+Get reference files (OPTIONAL, but improves reproducibility and saves time)
 This may take some time depending on server demand
 ```
 cd ref
