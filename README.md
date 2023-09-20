@@ -33,7 +33,7 @@ Note options on the scw config README for moving particular processes to 'highme
 module load tmux
 tmux
 # load dependencies
-module load singularity
+module load singularity-ce/3.11.4
 module load nextflow/22.10.6
 ```
 
