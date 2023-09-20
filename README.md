@@ -3,7 +3,6 @@
 ## Getting started
 ```
 git clone https://github.com/dgrfs/config-adapt-hawk-rnaseq
-
 ```
 
 Contains simulated reads using this workflow: https://bioconductor.org/packages/release/bioc/vignettes/polyester/inst/doc/polyester.html
