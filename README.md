@@ -5,6 +5,12 @@
 git clone https://github.com/dgrfs/config-adapt-hawk-rnaseq
 ```
 
+Get reference files (OPTIONAL, but improves reporducibility and saves time)
+This may take some time depending on server demand
+```
+bash get-refs.sh
+```
+
 Contains simulated reads using this workflow: https://bioconductor.org/packages/release/bioc/vignettes/polyester/inst/doc/polyester.html
 
 Simulated reads can be used for reproducibility and debugging
@@ -46,4 +52,16 @@ mamba activate nf-core
 run nextflow with adapted config, static NF-Core tools, static nf-core/RNASeq
 ```
 nextflow run ~/scratch/nf-core-rnaseq_3.12.0/3_12_0/ -profile singularity -params-file params.yaml -c adapted.scw.config
+```
+
+ALTERNATE
+
+```
+nextflow run nf-core/rnaseq \
+    -r 3.12.0 \
+    -params-file params.yaml \
+    -profile singularity \
+    -c adapted.scw.config \
+    --fasta $PWD/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz \
+    --gtf $PWD/Homo_sapiens.GRCh38.108.gtf.gz 
 ```
