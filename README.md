@@ -23,7 +23,7 @@ cd ref
 bash get-refs.sh
 ```
 
-Base config file for SCW can be found: https://nf-co.re/configs/scw \r
+Base config file for SCW can be found: https://nf-co.re/configs/scw <br />
 Note options on the scw config README for moving particular processes to 'highmem' partition (required if using HISAT2)
 
 ## Set up environment
