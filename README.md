@@ -22,6 +22,9 @@ This may take some time depending on server demand
 ```
 cd ref
 bash get-refs.sh
+
+# back to working directory once download is complete
+cd ..
 ```
 
 Base config file for SCW can be found: https://nf-co.re/configs/scw <br />
