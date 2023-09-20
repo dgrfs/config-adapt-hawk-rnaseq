@@ -23,7 +23,7 @@ This may take some time depending on server demand
 cd ref
 bash get-refs.sh
 
-# back to working directory once download is complete
+# back to working directory when download is complete
 cd ..
 ```
 
