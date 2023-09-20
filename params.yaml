@@ -6,6 +6,4 @@ save_unaligned: true
 remove_ribo_rna: true
 save_non_ribo_reads: true
 save_trimmed: true
-fasta: ./Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz
-gtf: ./Homo_sapiens.GRCh38.108.gtf.gz
 save_reference: false

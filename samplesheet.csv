@@ -1,6 +1,2 @@
 sample,fastq_1,fastq_2,strandedness
-sample_01,source_data/sample_01_1.fasta,source_data/sample_01_2.fasta,auto
-sample_02,source_data/sample_02_1.fasta,source_data/sample_02_2.fasta,auto
-sample_03,source_data/sample_03_1.fasta,source_data/sample_03_2.fasta,auto
-sample_04,source_data/sample_04_1.fasta,source_data/sample_04_2.fasta,auto
-sample_05,source_data/sample_05_1.fasta,source_data/sample_05_2.fasta,auto
+sample_01,source_data/sample_01_S1_L001_R1_001.fq.gz,source_data/sample_01_S1_L001_R2_001.fq.gz,auto
