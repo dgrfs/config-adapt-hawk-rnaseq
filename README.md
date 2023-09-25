@@ -54,7 +54,7 @@ nextflow run nf-core/rnaseq \
 ```
 
 # Faster startup with saved references
-Nextflow builds references. If you are running the pipeline multiple times, to speed up the process you can set save_reference to TRUE in .config, and then refer to those saved references in future runs.
+Nextflow builds references. If you are running the pipeline multiple times, to speed up the process you can set save_reference to TRUE in .config, and then refer to those saved references in future runs. <br />
 In adapt.scw.config:
 ```
 fasta: $PWD/ref/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz
