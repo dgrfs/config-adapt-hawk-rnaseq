@@ -36,6 +36,7 @@ Note options on the scw config README for moving particular processes to 'highme
 module load tmux
 tmux
 ```
+
 ```
 # load dependencies
 module load singularity-ce/3.11.4
@@ -53,9 +54,9 @@ nextflow run nf-core/rnaseq \
     --gtf $PWD/ref/Homo_sapiens.GRCh38.108.gtf.gz 
 ```
 
-# Faster startup with saved references
+## OPTIONAL: Faster startup with saved references
 Nextflow builds references. If you are running the pipeline multiple times, to speed up the process you can set save_reference to TRUE in .config, and then refer to those saved references in future runs. <br />
-In adapt.scw.config:
+In adapt.scw.config (change PATH to your references where appropriate):
 ```
 fasta: $PWD/ref/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz
 gtf: $PWD/ref/Homo_sapiens.GRCh38.108.gtf.gz
@@ -66,3 +67,7 @@ splicesites: $PWD/genome/index/Homo_sapiens.GRCh38.108.splice_sites.txt
 rsem_index: $PWD/ref/genome/rsem
 salmon_index: $PWD/ref/genome/index/salmon
 ```
+
+
+### ABOUT:
+SANDBOX | NF-Core RNAseq | SCW Hawk --> Example data and worksheets for immediate test run of the nextflow nf-core RNAseq pipeline. To be used for debugging, testing.
