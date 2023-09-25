@@ -52,3 +52,16 @@ nextflow run nf-core/rnaseq \
     --fasta $PWD/ref/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz \
     --gtf $PWD/ref/Homo_sapiens.GRCh38.108.gtf.gz 
 ```
+
+# Faster startup with saved references
+Nextflow builds references. If you are running the pipeline multiple times, to speed up the process you can set save_reference to TRUE in .config, and then refer to those saved references in future runs.
+```
+fasta: $PWD/ref/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz
+gtf: $PWD/ref/Homo_sapiens.GRCh38.108.gtf.gz
+hisat2_index: $PWD/ref/genome/index/hisat2
+gen_bed: $PWD/ref/genome/Homo_sapiens.GRCh38.108.bed
+transcript_fasta: $PWD/ref/genome/genome.transcripts.fa
+splicesites: $PWD/genome/index/Homo_sapiens.GRCh38.108.splice_sites.txt
+rsem_index: $PWD/ref/genome/rsem
+salmon_index: $PWD/ref/genome/index/salmon
+```
