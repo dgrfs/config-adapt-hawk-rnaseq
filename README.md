@@ -67,7 +67,17 @@ splicesites: $PWD/genome/index/Homo_sapiens.GRCh38.108.splice_sites.txt
 rsem_index: $PWD/ref/genome/rsem
 salmon_index: $PWD/ref/genome/index/salmon
 ```
+## FAQ:
+### I have multiple SLURM accounts. How do I specify which SLURM account to charge to?
+Nextflow uses your default SLURM account to charge jobs to. 
+To find out SLURM accounts you are a member of, run the following command:
+```
+sacctmgr show user withassoc \
+        format=account,user,defaultaccount where user=$USER
+```
+
+On the adapted.scw.config file, uncomment the clusterOptions command, and change [MY_ACCOUNT_NAME] to the account you would like to charge to.
 
 
-### ABOUT:
+## ABOUT:
 SANDBOX | NF-Core RNAseq | SCW Hawk --> Example data and worksheets for immediate test run of the nextflow nf-core RNAseq pipeline. To be used for debugging, testing.
