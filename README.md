@@ -1,6 +1,6 @@
 # RNASeq NF-Core pipeline setup
 
-example data taken from:
+Example data taken from:
 https://github.com/hartwigmedical/testdata
 
 NF-CORE RNASeq processing pipeline v3.12.0
@@ -77,6 +77,24 @@ sacctmgr show user withassoc \
 ```
 
 On the adapted.scw.config file, uncomment the clusterOptions command, and change [MY_ACCOUNT_NAME] to the account you would like to charge to.
+
+### How do I run a local pipeline with a static version of nf-core/rnaseq?
+In working directory, get a specific version (look at tags on nf-core/rnaseq for the version you want. In this, we have downloaded version 3.12.0)
+
+```
+git clone --branch 3.12.0 https://github.com/nf-core/rnaseq
+```
+
+The run nr-core rnaseq nextflow with the following command
+
+```
+nextflow run rnaseq/main.nf \
+    -params-file params.yaml \
+    -profile singularity \
+    -c adapted.scw.config \
+    --fasta $PWD/ref/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz \
+    --gtf $PWD/ref/Homo_sapiens.GRCh38.108.gtf.gz
+```
 
 
 ## ABOUT:
