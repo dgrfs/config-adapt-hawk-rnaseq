@@ -1,5 +1,7 @@
 # RNASeq NF-Core pipeline setup
 
+![Alt text for my SVG](assets/uses-nf-core.svg)
+
 Example data taken from:
 https://github.com/hartwigmedical/testdata
 
