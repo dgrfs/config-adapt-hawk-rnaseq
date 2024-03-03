@@ -2,7 +2,7 @@
 
 ![Alt text for my SVG](assets/uses-nf-core.svg)
 
-![Alt text for my SVG](assets/affiliated-with-infection-and-immunity-cardiff-university.svg)
+[![Alt text for my SVG](assets/affiliated-with-infection-and-immunity-cardiff-university.svg)](https://orcid.org/0009-0001-5312-511X)
 
 Example data taken from:
 https://github.com/hartwigmedical/testdata
