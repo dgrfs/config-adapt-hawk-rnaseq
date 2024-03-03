@@ -4,6 +4,9 @@
 
 [![Alt text for my SVG](assets/affiliated-with-infection-and-immunity-cardiff-university.svg)](https://orcid.org/0009-0001-5312-511X)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10740117.svg)](https://doi.org/10.5281/zenodo.10740117)
+
+
 Example data taken from:
 https://github.com/hartwigmedical/testdata
 
