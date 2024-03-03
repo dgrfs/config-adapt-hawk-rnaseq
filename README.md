@@ -2,6 +2,8 @@
 
 ![Alt text for my SVG](assets/uses-nf-core.svg)
 
+![Alt text for my SVG](assets/affiliated-with-infection-and-immunity-cardiff-university.svg)
+
 Example data taken from:
 https://github.com/hartwigmedical/testdata
 
