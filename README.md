@@ -7,6 +7,10 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10740117.svg)](https://doi.org/10.5281/zenodo.10740117)
 
 
+GithubPages:
+https://dgrfs.github.io/config-adapt-hawk-rnaseq/
+
+
 Example data taken from:
 https://github.com/hartwigmedical/testdata
 
